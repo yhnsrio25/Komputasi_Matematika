@@ -5,10 +5,10 @@ f = inline('x^2 - 3', 'x');
 X = [1 2];
 
 % Panggil fungsi BagiDua
-[x, galat] = bagidua_1(f, X);
+%[x, galat] = bagidua_1(f, X);
 
 %panggil fungsi PosisiPalsu
-%[x, galat] = PosisiPalsu(f, X);
+[x, galat] = PosisiPalsu(f, X);
 
 % Tampilkan hasil
 % fprintf('Akar hampiran: %.6f\n', x);
